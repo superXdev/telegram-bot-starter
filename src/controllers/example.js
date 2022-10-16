@@ -1,16 +1,20 @@
+import { view } from '../utils/view';
+
+const exampleMsg = view('example');
 
 export function welcome(ctx) {
-    ctx.reply('Welcome');
+    const message = view('welcome', { nickname: 'folks' }).welcome;
+    ctx.reply(message);
 }
 
 export function help(ctx) {
-    ctx.reply('Send me a sticker');
+    ctx.reply(exampleMsg.help);
 }
 
 export function sticker(ctx) {
-    ctx.reply('👍');
+    ctx.reply(exampleMsg.sticker);
 }
 
 export function greeting(ctx) {
-    ctx.reply('Hey there');
+    ctx.reply(exampleMsg.greeting);
 }

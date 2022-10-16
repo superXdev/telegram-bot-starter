@@ -83,6 +83,8 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
+    "sequelize": "^6.25.2",
+    "sqlite3": "^5.1.2",
     "telegraf": "^4.10.0"
   }
 }
