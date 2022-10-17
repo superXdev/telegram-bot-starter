@@ -1,6 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 
+/**
+ * Returns complete message from view template
+ * 
+ * @param {string} rel 
+ * @param {object} params 
+ * @return {string} message
+ */
 export function view(rel, params) {
     const pathView = path.resolve(__dirname) + '/../views/' + rel + '.js';
 
