@@ -41,17 +41,22 @@ git clone https://github.com/superXdev/telegram-bot-starter
 npm install
 ```
 
-3. Configure the database connection:
+3. Copy `.env` file
+```bash
+cp env .env
+```
+
+4. Configure the database connection:
 
 Edit the `src/config/config.js` file and provide the necessary database connection details. This file will handle the database migration and establish the connection with the models.
 
-4. Run the database migration:
+5. Run the database migration:
 
 ```bash
 npm run migrate
 ```
 
-5. Start the bot:
+6. Start the bot:
 
 ```bash
 npm start
