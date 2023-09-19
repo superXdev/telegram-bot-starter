@@ -21,6 +21,11 @@ project-root/
 └── README.md
 ```
 
+## Telegram Bot
+This telegram bot use this template to build
+
+- https://t.me/freeshorter_bot - Free shorten link
+
 ## Introduction
 
 This project aims to provide a basic foundation for building a Telegram bot using the Telegraf library. Telegraf is a modern and powerful Node.js library for creating bots for Telegram. The project structure has been designed to maintain clean code organization, separation of concerns, and ease of maintenance.
