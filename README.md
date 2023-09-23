@@ -25,6 +25,7 @@ project-root/
 This telegram bot use this template to build
 
 - https://t.me/freeshorter_bot - Free shorten link
+- https://t.me/TheWhois_bot - Whois for Domain lookup
 
 ## Introduction
 
